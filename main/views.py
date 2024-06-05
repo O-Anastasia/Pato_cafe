@@ -19,6 +19,7 @@ class IndexView(TemplateView):
         context['gallery'] = gallery
         context['chefs'] = chefs
         context['introduction'] = introduction
+        context['description'] = description
         #context['form'] = form
         context['title_menu'] = 'Check Our <span>Yummy Menu</span>'
         context['title_gallery'] = 'Check <span>Our Gallery</span>'
