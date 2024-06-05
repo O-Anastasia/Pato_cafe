@@ -1,3 +1,4 @@
+{% load static %}
 <header>
 		<!-- Header desktop -->
 		<div class="wrap-menu-header gradient1 trans-0-4">
@@ -6,10 +7,9 @@
 					<!-- Logo -->
 					<div class="logo">
 						<a href="index.html">
-							<img src={% static "images/icons/logo.png" %} alt="IMG-LOGO" data-logofixed={% static "images/icons/logo2.png" %}>
+							<img src="{% static 'images/icons/logo.png' %}" alt="IMG-LOGO" data-logofixed="{% static 'images/icons/logo2.png' %}">
 						</a>
 					</div>
-
 					<!-- Menu -->
 					<div class="wrap_menu p-l-45 p-l-0-xl">
 						<nav class="menu">
@@ -17,19 +17,18 @@
 								<li>
 									<a href="index.html">Home</a>
 								</li>
-
 								<li>
 									<a href="menu.html">Menu</a>
 								</li>
-                                
 								<li>
 									<a href="gallery.html">Gallery</a>
 								</li>
-
 								<li>
 									<a href="about.html">About</a>
 								</li>
-
+                                <li>
+									<a href="reservation.html">Reservation</a>
+								</li>
 							</ul>
 						</nav>
 					</div>
@@ -39,8 +38,7 @@
 						<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
 						<a href="#"><i class="fa fa-facebook m-l-21" aria-hidden="true"></i></a>
 						<a href="#"><i class="fa fa-twitter m-l-21" aria-hidden="true"></i></a>
-
-						<button class="btn-show-sidebar m-l-33 trans-0-4"></button>
+                        
 					</div>
 				</div>
 			</div>

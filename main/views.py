@@ -9,7 +9,7 @@ class IndexView(TemplateView):
         context = super().get_context_data()
         categories = DishCategory.objects.filter(is_visible=True)
         gallery = Gallery.objects.all()
-        chefs = Chefs.objects.all()
+        chefs = Chefs.objects.filter(is_visible=True)
         introduction = Introduction.objects.all()
         description = Description.objects.all()
         review = Review.objects.all()
@@ -20,6 +20,7 @@ class IndexView(TemplateView):
         context['chefs'] = chefs
         context['introduction'] = introduction
         context['description'] = description
+        context['review'] = review
         #context['form'] = form
         context['title_menu'] = 'Check Our <span>Yummy Menu</span>'
         context['title_gallery'] = 'Check <span>Our Gallery</span>'
@@ -40,3 +41,12 @@ class IndexView(TemplateView):
         #     form.save()
         #     messages.success(request, 'Ваше бронирование принято')
         #     return redirect('main:index')
+
+def menu(request):
+
+    categories = DishCategory.objects.filter(is_visible=True)
+
+    context = {'categories': categories,
+               }
+
+    return render(request, 'menu.html', context=context)
