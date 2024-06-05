@@ -76,6 +76,7 @@ class DishCategory(models.Model):
     name = models.CharField(max_length=255, unique=True)
     is_visible = models.BooleanField(default=True)
     sort = models.PositiveIntegerField()
+    photo = models.ImageField(upload_to='dishcategories/', blank=True, null=True)
 
     def __iter__(self):
         for item in self.dishes.filter(is_visible=True):
