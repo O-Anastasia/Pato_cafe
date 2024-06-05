@@ -49,60 +49,63 @@
 			<div class="row">
 				<div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
 					{% for category in categories %}
-                    <div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							{{ category }}
-						</h3>
-						<!-- Item mainmenu -->
-                        {% for dish in category %}
-						<div class="item-mainmenu m-b-36">
-							<div class="flex-w flex-b m-b-3">
-								<a href="#" class="name-item-mainmenu txt21">
-									{{ dish }}
-								</a>
-								<div class="line-item-mainmenu bg3-pattern"></div>
-								<div class="price-item-mainmenu txt22">
-									${{ dish.price }}
-								</div>
-							</div>
-							<span class="info-item-mainmenu txt23">
-								{{ dish.description }}
-							</span>
-						</div>
-                        {% endfor %}
-					</div>
+                        {% if category.name == 'STARTERS' or category.name == 'DRINKS' %}
+                            <div class="wrap-item-mainmenu p-b-22">
+                                <h3 class="tit-mainmenu tit10 p-b-25">
+                                    {{ category }}
+                                </h3>
+						        <!-- Item mainmenu -->
+                                {% for dish in category %}
+                                    <div class="item-mainmenu m-b-36">
+                                        <div class="flex-w flex-b m-b-3">
+                                            <a href="#" class="name-item-mainmenu txt21">
+                                                {{ dish }}
+                                            </a>
+                                            <div class="line-item-mainmenu bg3-pattern"></div>
+                                            <div class="price-item-mainmenu txt22">
+                                                ${{ dish.price }}
+                                            </div>
+                                        </div>
+                                        <span class="info-item-mainmenu txt23">
+                                            {{ dish.description }}
+                                        </span>
+                                    </div>
+                                {% endfor %}
+					        </div>
+                        {% endif %}
                     {% endfor %}
 				</div>
 				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
                     {% for category in categories %}
-                    <div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							{{ category }}
-						</h3>
-						<!-- Item mainmenu -->
-                        {% for dish in category %}
-						<div class="item-mainmenu m-b-36">
-							<div class="flex-w flex-b m-b-3">
-								<a href="#" class="name-item-mainmenu txt21">
-									{{ dish }}
-								</a>
-								<div class="line-item-mainmenu bg3-pattern"></div>
-								<div class="price-item-mainmenu txt22">
-									${{ dish.price }}
-								</div>
-							</div>
-							<span class="info-item-mainmenu txt23">
-								{{ dish.description }}
-							</span>
-						</div>
-                        {% endfor %}
-					</div>
+                        {% if category.name == 'MAIN' or category.name == 'DESSERT' %}
+                            <div class="wrap-item-mainmenu p-b-22">
+                                <h3 class="tit-mainmenu tit10 p-b-25">
+                                    {{ category }}
+                                </h3>
+						        <!-- Item mainmenu -->
+                                {% for dish in category %}
+                                    <div class="item-mainmenu m-b-36">
+                                        <div class="flex-w flex-b m-b-3">
+                                            <a href="#" class="name-item-mainmenu txt21">
+                                                {{ dish }}
+                                            </a>
+                                            <div class="line-item-mainmenu bg3-pattern"></div>
+                                            <div class="price-item-mainmenu txt22">
+                                                ${{ dish.price }}
+                                            </div>
+                                        </div>
+                                        <span class="info-item-mainmenu txt23">
+                                            {{ dish.description }}
+                                        </span>
+                                    </div>
+                                {% endfor %}
+					        </div>
+                        {% endif %}
                     {% endfor %}
-				</div>
-			</div>
-		</div>
+			    </div>
+            </div>
+        </div>
 	</section>
-
 
 	<!-- Lunch -->
 	<section class="section-lunch bgwhite">
