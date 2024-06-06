@@ -60,23 +60,23 @@ def about(request):
     return render(request, 'about.html', context=context)
 
 
-# class ReservationView(TemplateView):
-#     template_name = 'reservation.html'
-#
-#     def get_context_data(self, **kwargs):
-#         context = super().get_context_data()
-#         gallery = Gallery.objects.all()
-#         form = ReservationForm()
-#
-#         context['gallery'] = gallery
-#         context['form'] = form
-#
-#         return context
-#
-#     def post(self, request):
-#             form = ReservationForm(request.POST)
-#             if form.is_valid():
-#                 form.save()
-#                 messages.success(request, 'Ваше бронирование принято')
-#                 return redirect('index')
+class ReservationView(TemplateView):
+    template_name = 'reservation.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data()
+        gallery = Gallery.objects.all()
+        form = ReservationForm()
+
+        context['gallery'] = gallery
+        context['form'] = form
+
+        return context
+
+    def post(self, request):
+            form = ReservationForm(request.POST)
+            if form.is_valid():
+                form.save()
+                #messages.success(request, 'Ваше бронирование принято')
+                return redirect('index')
 

@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from Pato_Project import settings
 from django.conf.urls.static import static
-from main.views import IndexView, menu, about
+from main.views import IndexView, menu, about, ReservationView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -26,7 +26,7 @@ urlpatterns = [
     path('index/', IndexView.as_view(), name='index'),
     path('menu/', menu, name='menu'),
     path('about/', about, name='about'),
-    #path('reservation/', ReservationView.as_view(), name='reservation'),
+    path('reservation/', ReservationView.as_view(), name='reservation'),
 
 ]
 
