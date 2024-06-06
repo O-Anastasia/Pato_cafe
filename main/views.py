@@ -77,6 +77,9 @@ class ReservationView(TemplateView):
             form = ReservationForm(request.POST)
             if form.is_valid():
                 form.save()
+            else:
+                print('error')
+                print(form.errors, len(form.errors))
                 #messages.success(request, 'Ваше бронирование принято')
-                return redirect('index')
+            return redirect('index')
 

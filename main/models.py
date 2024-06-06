@@ -1,6 +1,6 @@
 from django.db import models
 from ckeditor.fields import RichTextField
-from django.core.validators import RegexValidator
+
 
 
 class Introduction(models.Model):
@@ -110,16 +110,16 @@ class Dish(models.Model):
         ordering = ['sort']
 
 class Reservation(models.Model):
-    phone_regex = RegexValidator(regex=r'^\+?(380)?\d{9,15}$',
-                                 message="Phone number must be entered in the format: '+999999999'. "
-                                         "Up to 15 digits allowed.")
+    # phone_regex = RegexValidator(regex=r'^\+?(380)?\d{9,15}$',
+    #                              message="Phone number must be entered in the format: '+999999999'. "
+    #                                      "Up to 15 digits allowed.")
 
     name = models.CharField(max_length=255)
-    phone = models.CharField(max_length=20, validators=[phone_regex])
-    email = models.EmailField(max_length=255)
-    date = models.DateField()
-    time = models.TimeField()
-    people = models.PositiveSmallIntegerField()
+    phone = models.TextField(blank=True, null=True)
+    email = models.TextField(blank=True, null=True)
+    date = models.TextField(blank=True, null=True)
+    time = models.TextField(blank=True, null=True)
+    people = models.TextField(blank=True, null=True)
 
     is_confirmed = models.BooleanField(default=False)
     date_created = models.DateTimeField(auto_now_add=True)
