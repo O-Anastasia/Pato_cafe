@@ -1,0 +1,1 @@
+web: gunicorn Pato_Project.wsgi --log-file - --log-level debug

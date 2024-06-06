@@ -1,0 +1,556 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-06-03T16:04:10.408Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "LUNCH",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-06-03T16:04:28.760Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "DINNER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-06-03T16:04:48.995Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "STARTERS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-06-03T16:05:29.810Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "MAIN",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-06-03T16:05:53.652Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "DRINKS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-06-03T16:06:06.128Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "DESSERT",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-06-04T12:44:30.593Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "SED VARIUS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-06-04T12:51:52.551Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "TEMPUS ALIQUET",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-06-04T12:58:31.375Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "TEMPUS ALIQUET",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-06-04T13:00:50.794Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "TEMPUS ALIQUET",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-06-04T13:02:14.727Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "TEMPUS ALIQUET",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-06-04T13:04:05.750Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "DUIS MASSA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-06-04T13:08:24.809Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "5",
+        "object_repr": "SBRISALONA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-06-04T13:09:47.969Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "6",
+        "object_repr": "CRAS EGET MAGNA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-06-04T13:11:06.289Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "7",
+        "object_repr": "NULLAM MAXIMUS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-06-04T13:13:06.810Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "8",
+        "object_repr": "MAECENAS TRISTIQUE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-06-04T13:14:19.246Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "9",
+        "object_repr": "PINE NUT SBRISALONA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-06-04T13:15:24.861Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "10",
+        "object_repr": "SUSPENDISSE EU",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-06-04T13:16:25.557Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "11",
+        "object_repr": "CRAS MAXIMUS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-06-04T13:17:58.210Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "12",
+        "object_repr": "PINE NUT SBRISALONAS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-06-04T13:19:19.879Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "13",
+        "object_repr": "TEMPOR MALESUADA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-06-04T13:20:50.959Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "14",
+        "object_repr": "PINES NUT SBRISALONAS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-06-04T13:21:39.291Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "15",
+        "object_repr": "AENEAN EU",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-06-04T13:22:25.521Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "16",
+        "object_repr": "SED FEUGIAT",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-06-04T13:23:13.543Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "17",
+        "object_repr": "CONSECTETUR",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-06-04T13:24:20.912Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "18",
+        "object_repr": "VIVAMUS PRETIUM",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-06-04T13:25:14.373Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "19",
+        "object_repr": "DUIS PHARETRA LIGULA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-06-04T13:26:03.449Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "20",
+        "object_repr": "IN EU DOLOR",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-06-04T13:26:51.341Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "21",
+        "object_repr": "FEUGIAT MAXIMUS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-06-04T13:27:41.124Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "22",
+        "object_repr": "DUIS SED ALIQUET",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-06-04T13:28:20.546Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "23",
+        "object_repr": "SUSPENDISSE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-06-04T13:29:09.603Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "24",
+        "object_repr": "SCELERISQUE SED",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-06-04T13:29:53.912Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "25",
+        "object_repr": "MOLLIS NULLA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-06-04T13:30:44.297Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "26",
+        "object_repr": "CONVALLIS AUGUE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-06-04T13:31:34.209Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "27",
+        "object_repr": "MAECENAS TRISTIQUES",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-06-04T13:32:21.366Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "28",
+        "object_repr": "DUIS TINCDUNT",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-06-04T13:33:28.565Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "29",
+        "object_repr": "TEMPUS ALIQUETS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-06-04T13:34:01.527Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "30",
+        "object_repr": "SCELERISQUE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-06-04T13:34:46.991Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "31",
+        "object_repr": "CRAS MAX",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-06-04T13:38:41.147Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "ROMANTIC RESTAURANT",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-06-04T13:39:32.834Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "DELICIOUS FOOD",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-06-04T13:40:34.964Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "RED WINES YOU LOVE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-06-04T13:44:12.978Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": 
