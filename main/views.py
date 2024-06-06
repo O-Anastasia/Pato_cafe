@@ -9,7 +9,6 @@ class IndexView(TemplateView):
         context = super().get_context_data()
         categories = DishCategory.objects.filter(is_visible=True)
         gallery = Gallery.objects.all()
-        chefs = Chefs.objects.filter(is_visible=True)
         introduction = Introduction.objects.all()
         description = Description.objects.all()
         review = Review.objects.all()
@@ -17,7 +16,6 @@ class IndexView(TemplateView):
 
         context['categories'] = categories
         context['gallery'] = gallery
-        context['chefs'] = chefs
         context['introduction'] = introduction
         context['description'] = description
         context['review'] = review
@@ -50,3 +48,24 @@ def menu(request):
                }
 
     return render(request, 'menu.html', context=context)
+
+def about(request):
+
+    chefs = Chefs.objects.filter(is_visible=True)
+
+    context = {'chefs': chefs,
+               'our_story': '''
+                            Fusce at risus eget mi auctor pulvinar. Suspendisse maximus 
+                            venenatis pretium. Orci varius natoque penatibus et magnis dis parturient 
+                            montes, nascetur ridiculus mus. Aliquam purus purus, lacinia a scelerisque in,
+                            luctus vel felis. Donec odio diam, dignissim a efficitur at, efficitur et est.
+                            Pellentesque semper est ut pulvinar ullamcorper. Class aptent taciti sociosqu 
+                            ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                            Nulla et leo accumsan, egestas velit ac, fringilla tortor. 
+                            Sed varius justo sed luctus mattis.
+                            ''',
+               }
+
+    return render(request, 'about.html', context=context)
+
+
