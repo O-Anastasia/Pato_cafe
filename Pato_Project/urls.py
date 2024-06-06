@@ -26,9 +26,9 @@ urlpatterns = [
     path('index/', IndexView.as_view(), name='index'),
     path('menu/', menu, name='menu'),
     path('about/', about, name='about'),
+    #path('reservation/', ReservationView.as_view(), name='reservation'),
 
 ]
-
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -119,8 +119,7 @@ class Reservation(models.Model):
     email = models.EmailField(max_length=255)
     date = models.DateField()
     time = models.TimeField()
-    count = models.PositiveSmallIntegerField()
-    comment = models.TextField(blank=True, null=True)
+    people = models.PositiveSmallIntegerField()
 
     is_confirmed = models.BooleanField(default=False)
     date_created = models.DateTimeField(auto_now_add=True)
@@ -130,8 +129,8 @@ class Reservation(models.Model):
         return f'{self.name} - {self.date} {self.time}'
 
     class Meta:
-        verbose_name = 'Бронюванне'
-        verbose_name_plural = 'Бронюванне'
+        verbose_name = 'Бронирование'
+        verbose_name_plural = 'Бронирование'
         ordering = ['-date_created']
 
 
