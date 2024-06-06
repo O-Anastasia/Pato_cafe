@@ -15,7 +15,6 @@ class DishCategoryAdmin(admin.ModelAdmin):
     list_editable = ('name', 'is_visible', 'sort')
     list_filter = ('is_visible',)
     search_fields = ('name',)
-    #prepopulated_fields = {'slug': ("name",)}
 
 @admin.register(Dish)
 class DishAdmin(admin.ModelAdmin):

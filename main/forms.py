@@ -8,18 +8,18 @@ class ReservationForm(forms.ModelForm):
         model = Reservation
         fields = ('date', 'time', 'people', 'name', 'phone', 'email')
         widgets = {
-            'date': forms.TextInput(attrs={'class': 'form-control', 'id': 'date', 'placeholder': 'Date',
-                                           'data-rule': 'minlen:4'}),
-            'time': forms.TextInput(attrs={'class': 'form-control', 'id': 'time', 'placeholder': 'Time',
-                                           'data-rule': 'minlen:4'}),
-            'people': forms.NumberInput(attrs={'class': 'form-control', 'id': 'people', 'placeholder': '# of people',
-                                               'data-rule': 'minlen:4'}),
-            'name': forms.TextInput(attrs={'class': 'form-control', 'id': 'name', 'placeholder': 'Your Name',
-                                           'data-rule': 'minlen:4'}),
-            'phone': forms.TextInput(attrs={'class': 'form-control', 'id': 'phone', 'placeholder': 'Your Phone',
-                                            'data-rule': 'minlen:4'}),
-            'email': forms.EmailInput(attrs={'class': 'form-control', 'id': 'email', 'placeholder': 'Your Email',
-                                             'data-rule': 'minlen:4'}),
+            'date': forms.TextInput(attrs={'class': 'my-calendar bo-rad-10 sizefull txt10 p-l-20', 'id': 'date',
+                                           }),
+            'time': forms.TextInput(attrs={'id': 'time',
+                                           }),
+            'people': forms.NumberInput(attrs={'id': 'people',
+                                               }),
+            'name': forms.TextInput(attrs={'class': 'bo-rad-10 sizefull txt10 p-l-20', 'id': 'name', 'placeholder': 'Name',
+                                           }),
+            'phone': forms.TextInput(attrs={'class': 'bo-rad-10 sizefull txt10 p-l-20', 'id': 'phone', 'placeholder': 'Phone',
+                                            }),
+            'email': forms.EmailInput(attrs={'class': 'bo-rad-10 sizefull txt10 p-l-20', 'id': 'email', 'placeholder': 'Email',
+                                             }),
         }
         labels = {
             'date': 'Date',
