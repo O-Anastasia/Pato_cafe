@@ -32,7 +32,7 @@ DATABASE_URL = os.environ.get('DATABASE_URL')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['pato-project-05cb773866b0.herokuapp.com/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
