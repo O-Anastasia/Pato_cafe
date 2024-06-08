@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY',get_random_secret_key())
 DATABASE_URL = os.environ.get('DATABASE_URL')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'Pato_Project.wsgi.application'
 
 DATABASES = {}
 
-if not DEBUG:
+if DEBUG:
     DATABASES['default'] = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
