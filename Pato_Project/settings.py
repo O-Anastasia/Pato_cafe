@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'Pato_Project.wsgi.application'
 
 DATABASES = {}
 
-if DEBUG:
+if not DEBUG:
     DATABASES['default'] = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
