@@ -20,7 +20,12 @@ class IndexView(TemplateView):
         context['introduction'] = introduction
         context['description'] = description
         context['review'] = review
-
+        context['restaurant_name'] = 'Pato Place'
+        context['story'] = '''
+                            Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. 
+                            Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, 
+                            ac facilisis ligula sem id neque.
+                            '''
         return context
 
     def post(self, request):
@@ -70,6 +75,15 @@ class ReservationView(TemplateView):
 
         context['gallery'] = gallery
         context['form'] = form
+        context['comment_1'] = '''
+                                Donec quis euismod purus. Donec feugiat ligula rhoncus, 
+                                varius nisl sed, tincidunt lectus. 
+                                Nulla vulputate , lectus vel volutpat efficitur, 
+                                orci lacus sodales sem, sit amet quam:
+                                '''
+        context['phone'] = '(001) 345 6889'
+        context['comment_2_line_1'] = 'Donec feugiat ligula rhoncus:'
+        context['comment_2_line_2'] = ', varius nisl sed, tinci-dunt lectus sodales sem.'
 
         return context
 
