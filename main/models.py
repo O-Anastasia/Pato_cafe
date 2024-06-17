@@ -2,7 +2,6 @@ from django.db import models
 from ckeditor.fields import RichTextField
 
 
-
 class Introduction(models.Model):
     name = models.CharField(max_length=255)
     photo = models.ImageField(upload_to="introduction/", blank=True, null=True)

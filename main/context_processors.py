@@ -1,4 +1,7 @@
-def app_title(request):
+def app_title(request) -> dict:
+    """
+    Add the app_title to the context for 'footer.html'
+    """
     return {
         'address': '8th floor, 379 Hudson St, New York, NY 10018',
         'phone': '(+1) 96 716 6879',

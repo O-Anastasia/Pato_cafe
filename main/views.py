@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
 from .models import DishCategory, Dish, Gallery, Chefs, Introduction, Description, Review
@@ -6,8 +7,14 @@ from django.contrib import messages
 
 # Create your views here.
 class IndexView(TemplateView):
+    """
+    Class for rendering template index.html
+    """
     template_name = 'index.html'
-    def get_context_data(self, **kwargs):
+    def get_context_data(self, **kwargs) -> dict:
+        """
+        Method for rendering context data
+        """
         context = super().get_context_data()
         categories = DishCategory.objects.filter(is_visible=True)
         gallery = Gallery.objects.all()
@@ -36,8 +43,10 @@ class IndexView(TemplateView):
         #     messages.success(request, 'Ваше бронирование принято')
         #     return redirect('index')
 
-def menu(request):
-
+def menu(request) -> HttpResponse:
+    """
+    Method for rendering page 'menu.html'
+    """
     categories = DishCategory.objects.filter(is_visible=True)
 
     context = {'categories': categories,
@@ -45,7 +54,10 @@ def menu(request):
 
     return render(request, 'menu.html', context=context)
 
-def about(request):
+def about(request) -> HttpResponse:
+    """
+    Method for rendering page 'about.html'
+    """
 
     chefs = Chefs.objects.filter(is_visible=True)
 
@@ -66,9 +78,15 @@ def about(request):
 
 
 class ReservationView(TemplateView):
+    """
+    Class for rendering template 'reservation.html'
+    """
     template_name = 'reservation.html'
 
-    def get_context_data(self, **kwargs):
+    def get_context_data(self, **kwargs) -> dict:
+        """
+        Method for rendering context data
+        """
         context = super().get_context_data()
         gallery = Gallery.objects.all()
         form = ReservationForm()
@@ -88,12 +106,16 @@ class ReservationView(TemplateView):
         return context
 
     def post(self, request):
-            form = ReservationForm(request.POST)
-            if form.is_valid():
-                form.save()
-            else:
-                print('error')
-                print(form.errors, len(form.errors))
-                #messages.success(request, 'Ваше бронирование принято')
+        """
+        Method for writing data to Reservation form from user
+        """
+        form = ReservationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Your reservation was successfully created.')
             return redirect('index')
+        else:
+            print('error')
+            print(form.errors, len(form.errors))
+            return redirect('reservation')
 

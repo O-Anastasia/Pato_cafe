@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth.views import LoginView
 from django.contrib.auth import logout
@@ -11,7 +12,7 @@ class RegisterView(CreateView):
     template_name = 'register.html'
     form_class = RegisterForm
     success_url = '/'
-    def get_context_data(self, **kwargs):
+    def get_context_data(self, **kwargs) -> dict:
         """
         Add context data for register.html
         """
@@ -35,7 +36,7 @@ class MyLoginView(LoginView):
     """
     template_name = 'login.html'
 
-    def get_success_url(self):
+    def get_success_url(self) -> HttpResponse:
         """
         Define URL after successful login
         """
