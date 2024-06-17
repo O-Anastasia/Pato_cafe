@@ -35,13 +35,6 @@ class IndexView(TemplateView):
                             '''
         return context
 
-    def post(self, request):
-        ...
-        # form = ReservationForm(request.POST)
-        # if form.is_valid():
-        #     form.save()
-        #     messages.success(request, 'Ваше бронирование принято')
-        #     return redirect('index')
 
 def menu(request) -> HttpResponse:
     """

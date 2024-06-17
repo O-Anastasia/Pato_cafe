@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY',get_random_secret_key())
 DATABASE_URL = os.environ.get('DATABASE_URL')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 

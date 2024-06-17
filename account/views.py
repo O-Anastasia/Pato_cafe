@@ -4,14 +4,17 @@ from django.contrib.auth.views import LoginView
 from django.contrib.auth import logout
 from django.views.generic import CreateView
 from .forms import RegisterForm
+from django.contrib.messages.views import SuccessMessageMixin
 
-class RegisterView(CreateView):
+class RegisterView(SuccessMessageMixin, CreateView):
     """
     Class for registration new users
     """
     template_name = 'register.html'
     form_class = RegisterForm
     success_url = '/'
+    success_message = "User was created successfully"
+
     def get_context_data(self, **kwargs) -> dict:
         """
         Add context data for register.html
