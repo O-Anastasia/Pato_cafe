@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-04 17:27+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\account\views.py:25
+msgid ""
+"\n"
+"                                Donec quis euismod purus. Donec feugiat "
+"ligula rhoncus, \n"
+"                                varius nisl sed, tincidunt lectus. \n"
+"                                Nulla vulputate , lectus vel volutpat "
+"efficitur, \n"
+"                                orci lacus sodales sem, sit amet quam:\n"
+"                                "
+msgstr "Уютное итальянское кафе, где традиции и современные тенденции сливаются в гармоничное единство."
+
+#: .\account\views.py:32
+msgid "Donec feugiat ligula rhoncus:"
+msgstr "Просто позвоните нам, и наш дружелюбный персонал поможет вам выбрать удобное время"
+
+#: .\account\views.py:33
+msgid ", varius nisl sed, tinci-dunt lectus sodales sem."
+msgstr "мы всегда рады вашим звонкам и с нетерпением ждем возможности приветствовать вас!"
+
+#: .\account\views.py:34
+msgid "Register"
+msgstr "Регистрация"
+
+#: .\templates\includes\footer.html:10
+msgid "Contact Us"
+msgstr "Контакты"
+
+#: .\templates\includes\footer.html:28
+msgid "Opening Times"
+msgstr "Рабочее время"
+
+#: .\templates\includes\footer.html:42
+msgid "Latest twitter"
+msgstr "Твиттер"
+
+#: .\templates\includes\footer.html:82
+msgid "Gallery"
+msgstr "Галерея"
+
+#: .\templates\includes\footer.html:104
+msgid "Copyright"
+msgstr "Авторское право"
+
+#: .\templates\includes\footer.html:104
+msgid "2018 All rights reserved  |  This template is made with"
+msgstr "2018 Все права защищены | Этот шаблон сделан"
+
+#: .\templates\includes\footer.html:104
+msgid "by"
+msgstr " "
+
+#: .\templates\includes\footer.html:104
+msgid "Colorlib"
+msgstr "Colorlib"
+
+#: .\templates\includes\header.html:19
+msgid "Home"
+msgstr "Начальная страница"
+
+#: .\templates\includes\header.html:22
+msgid "Menu"
+msgstr "Меню"
+
+#: .\templates\includes\header.html:25
+msgid "About"
+msgstr "О нас"
+
+#: .\templates\includes\header.html:28
+msgid "Reservation"
+msgstr "Зарезервировать"
+
+#: .\templates\includes\header.html:31
+msgid "Online Registration"
+msgstr "Онлайн регистрация"
+
+#: .\templates\includes\header.html:34 .\templates\login.html:46
+#: .\templates\login.html:68
+msgid "Login"
+msgstr "Зарегистрироваться"

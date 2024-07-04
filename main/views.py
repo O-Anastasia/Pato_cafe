@@ -4,6 +4,7 @@ from django.views.generic import TemplateView
 from .models import DishCategory, Dish, Gallery, Chefs, Introduction, Description, Review
 from .forms import ReservationForm
 from django.contrib import messages
+from django.utils.translation import gettext as _
 
 # Create your views here.
 class IndexView(TemplateView):
@@ -27,12 +28,22 @@ class IndexView(TemplateView):
         context['introduction'] = introduction
         context['description'] = description
         context['review'] = review
-        context['restaurant_name'] = 'Pato Place'
-        context['story'] = '''
+        context['restaurant_name'] = _('Pato Place')
+        context['story'] = _('''
                             Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. 
                             Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, 
                             ac facilisis ligula sem id neque.
-                            '''
+                            ''')
+        context['welcome_to'] = _('Welcome to')
+        context['menu'] = _('Look Menu')
+        context['italian_restaurant'] = _('Italian Restaurant')
+        context['welcome'] = _('Welcome')
+        context['our_story'] = _('Our Story')
+        context['discover'] = _('Discover')
+        context['customer_say'] = _('Customers Say')
+        context['review_title'] = _('Review')
+        context['our_video'] = _('Our Video')
+        
         return context
 
 
@@ -43,6 +54,8 @@ def menu(request) -> HttpResponse:
     categories = DishCategory.objects.filter(is_visible=True)
 
     context = {'categories': categories,
+               'pato_menu': _('Pato Menu Book'),
+
                }
 
     return render(request, 'menu.html', context=context)
@@ -55,7 +68,7 @@ def about(request) -> HttpResponse:
     chefs = Chefs.objects.filter(is_visible=True)
 
     context = {'chefs': chefs,
-               'our_story': '''
+               'story': _('''
                             Fusce at risus eget mi auctor pulvinar. Suspendisse maximus 
                             venenatis pretium. Orci varius natoque penatibus et magnis dis parturient 
                             montes, nascetur ridiculus mus. Aliquam purus purus, lacinia a scelerisque in,
@@ -64,7 +77,14 @@ def about(request) -> HttpResponse:
                             ad litora torquent per conubia nostra, per inceptos himenaeos. 
                             Nulla et leo accumsan, egestas velit ac, fringilla tortor. 
                             Sed varius justo sed luctus mattis.
-                            ''',
+                            '''),
+               'about_us': _('About Us'),
+               'italian_restaurant': _('Italian Restaurant'),
+               'our_story': _('Our Story'),
+               'discover': _('Discover'),
+               'our_video': _('Our Video'),
+               'meet_our': _('Meet Our'),
+               'chef': _('Chef'),
                }
 
     return render(request, 'about.html', context=context)
@@ -86,15 +106,23 @@ class ReservationView(TemplateView):
 
         context['gallery'] = gallery
         context['form'] = form
-        context['comment_1'] = '''
+        context['comment_1'] = _('''
                                 Donec quis euismod purus. Donec feugiat ligula rhoncus, 
                                 varius nisl sed, tincidunt lectus. 
                                 Nulla vulputate , lectus vel volutpat efficitur, 
                                 orci lacus sodales sem, sit amet quam:
-                                '''
+                                ''')
         context['phone'] = '(001) 345 6889'
-        context['comment_2_line_1'] = 'Donec feugiat ligula rhoncus:'
-        context['comment_2_line_2'] = ', varius nisl sed, tinci-dunt lectus sodales sem.'
+        context['comment_2_line_1'] = _('Donec feugiat ligula rhoncus:')
+        context['comment_2_line_2'] = _(', varius nisl sed, tinci-dunt lectus sodales sem.')
+        context['reservations'] = _('Reservations')
+        context['book_table'] = _('Book a table')
+        context['person'] = _('person')
+        context['persons'] = _('persons')
+        context['people'] = _('people')
+        context['reserve_by_phone'] = _('Reserve by Phone')
+        context['for_event_booking'] = _('For Event Booking')
+
 
         return context
 

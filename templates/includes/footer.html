@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <!-- Footer -->
 	<footer class="bg1">
 		<div class="container p-t-40 p-b-70">
@@ -6,7 +7,7 @@
 				<div class="col-sm-6 col-md-4 p-t-50">
 					<!-- - -->
 					<h4 class="txt13 m-b-33">
-						Contact Us
+						{% translate "Contact Us" %}
 					</h4>
 					<ul class="m-b-70">
 						<li class="txt14 m-b-14">
@@ -24,7 +25,7 @@
 					</ul>
 					<!-- - -->
 					<h4 class="txt13 m-b-32">
-						Opening Times
+						{% translate "Opening Times" %}
 					</h4>
 					<ul>
 						<li class="txt14">
@@ -38,7 +39,7 @@
 				<div class="col-sm-6 col-md-4 p-t-50">
 					<!-- - -->
 					<h4 class="txt13 m-b-33">
-						Latest twitter
+						{% translate "Latest twitter" %}
 					</h4>
 					<div class="m-b-25">
 						<span class="fs-13 color2 m-r-5">
@@ -78,7 +79,7 @@
 				<div class="col-sm-6 col-md-4 p-t-50">
 					<!-- - -->
 					<h4 class="txt13 m-b-38">
-						Gallery
+						{% translate "Gallery" %}
 					</h4>
 					<!-- Gallery footer -->
 					<div class="wrap-gallery-footer flex-w">
@@ -100,7 +101,7 @@
 						<a href="#" class="fs-15 c-white"><i class="fa fa-twitter m-l-18" aria-hidden="true"></i></a>
 					</div>
 					<div class="txt17 p-r-20 p-t-5 p-b-5">
-						Copyright &copy; 2018 All rights reserved  |  This template is made with <i class="fa fa-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						{% translate "Copyright" %} &copy; {% translate "2018 All rights reserved  |  This template is made with" %} <i class="fa fa-heart"></i> {% translate "by" %} <a href="https://colorlib.com" target="_blank">{% translate "Colorlib" %}</a>
 					</div>
 				</div>
 			</div>
