@@ -104,8 +104,6 @@ msgid "Our Video"
 msgstr "Наше видео"
 
 #: .\main\views.py:57
-#, fuzzy
-#| msgid "Look Menu"
 msgid "Pato Menu Book"
 msgstr "Пато меню"
 
@@ -195,8 +193,6 @@ msgid "person"
 msgstr "человек"
 
 #: .\main\views.py:121
-#, fuzzy
-#| msgid "person"
 msgid "persons"
 msgstr "человека"
 
