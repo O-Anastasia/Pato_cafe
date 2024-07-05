@@ -7,7 +7,7 @@
 				<div class="wrap_header trans-0-3">
 					<!-- Logo -->
 					<div class="logo">
-						<a href="/index/">
+						<a href="{% url 'index' %}">
 							<img src="{% static 'images/icons/logo.png' %}" alt="IMG-LOGO" data-logofixed="{% static 'images/icons/logo2.png' %}">
 						</a>
 					</div>
@@ -16,22 +16,22 @@
 						<nav class="menu">
 							<ul class="main_menu">
 								<li>
-									<a href="/index/">{% translate "Home" %}</a>
+									<a href="{% url 'index' %}">{% translate "Home" %}</a>
 								</li>
 								<li>
-									<a href="/menu/">{% translate "Menu" %}</a>
+									<a href="{% url 'menu' %}">{% translate "Menu" %}</a>
 								</li>
 								<li>
-									<a href="/about/">{% translate "About" %}</a>
+									<a href="{% url 'about' %}">{% translate "About" %}</a>
 								</li>
                                 <li>
-									<a href="/reservation/">{% translate "Reservation" %}</a>
+									<a href="{% url 'reservation' %}">{% translate "Reservation" %}</a>
 								</li>
                                 <li>
-									<a href="/register/">{% translate "Online Registration" %}</a>
+									<a href="{% url 'register' %}">{% translate "Online Registration" %}</a>
 								</li>
                                 <li>
-									<a href="/login/">{% translate "Login" %}</a>
+									<a href="{% url 'login' %}">{% translate "Login" %}</a>
 								</li>
 							</ul>
 						</nav>

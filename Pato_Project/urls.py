@@ -20,8 +20,9 @@ from Pato_Project import settings
 from django.conf.urls.static import static
 from main.views import IndexView, menu, about, ReservationView
 from account.views import RegisterView, MyLoginView
+from django.conf.urls.i18n import i18n_patterns
 
-urlpatterns = [
+urlpatterns = i18n_patterns(
     path('admin/', admin.site.urls),
     path('', IndexView.as_view(), name='index'),
     path('index/', IndexView.as_view(), name='index'),
@@ -30,7 +31,7 @@ urlpatterns = [
     path('reservation/', ReservationView.as_view(), name='reservation'),
     path('register/', RegisterView.as_view(), name='register'),
     path('login/', MyLoginView.as_view(), name='login'),
-]
+)
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
