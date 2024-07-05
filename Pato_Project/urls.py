@@ -15,15 +15,20 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from Pato_Project import settings
 from django.conf.urls.static import static
 from main.views import IndexView, menu, about, ReservationView
 from account.views import RegisterView, MyLoginView
 from django.conf.urls.i18n import i18n_patterns
 
-urlpatterns = i18n_patterns(
+
+urlpatterns = [
+    path("i18n/", include("django.conf.urls.i18n")),
     path('admin/', admin.site.urls),
+]
+
+urlpatterns += i18n_patterns(
     path('', IndexView.as_view(), name='index'),
     path('index/', IndexView.as_view(), name='index'),
     path('menu/', menu, name='menu'),
