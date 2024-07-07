@@ -553,4 +553,2002 @@
         "user": 1,
         "content_type": 12,
         "object_id": "1",
-        "object_repr": 
+        "object_repr": "Marie Simmons ˗ New York",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-06-04T13:45:16.467Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Marie Simmons ˗ New York",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-06-04T13:47:04.961Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Marie Simmons ˗ New York",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-06-04T13:48:38.104Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Peter Hart",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-06-04T13:49:19.242Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Joyce Bowman",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-06-04T13:50:32.460Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Peter Hartis",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-06-04T13:52:50.565Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "PHOTO1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-06-04T13:53:45.458Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "PHOTO2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-06-04T13:54:35.753Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "PHOTO3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-06-04T13:55:42.217Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-06-04T13:56:17.075Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-06-04T13:57:10.516Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-06-04T13:57:38.300Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2024-06-04T13:58:06.884Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2024-06-04T13:58:27.097Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2024-06-04T13:58:52.263Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "7",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2024-06-04T13:59:27.996Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "8",
+        "object_repr": "8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2024-06-04T13:59:47.688Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "9",
+        "object_repr": "9",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2024-06-05T20:17:34.279Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "32",
+        "object_repr": "TEMPUS ALIQ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2024-06-05T20:18:29.089Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "33",
+        "object_repr": "SCELERISQUES",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2024-06-05T20:19:31.526Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "34",
+        "object_repr": "CRAS M",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2024-06-05T20:42:32.115Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "1",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2024-06-05T20:43:25.240Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "DINNER",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2024-06-05T20:45:25.115Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "LUNCH",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2024-06-05T21:38:53.531Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "12",
+        "object_repr": "PINE NUT SBRISALONAS",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Повар",
+        "content_type": 7,
+        "codename": "add_chefs"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Повар",
+        "content_type": 7,
+        "codename": "change_chefs"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Повар",
+        "content_type": 7,
+        "codename": "delete_chefs"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view Повар",
+        "content_type": 7,
+        "codename": "view_chefs"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Описание",
+        "content_type": 8,
+        "codename": "add_description"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Описание",
+        "content_type": 8,
+        "codename": "change_description"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Описание",
+        "content_type": 8,
+        "codename": "delete_description"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Описание",
+        "content_type": 8,
+        "codename": "view_description"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add Категория блюд",
+        "content_type": 9,
+        "codename": "add_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change Категория блюд",
+        "content_type": 9,
+        "codename": "change_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete Категория блюд",
+        "content_type": 9,
+        "codename": "delete_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view Категория блюд",
+        "content_type": 9,
+        "codename": "view_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Фото",
+        "content_type": 10,
+        "codename": "add_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Фото",
+        "content_type": 10,
+        "codename": "change_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Фото",
+        "content_type": 10,
+        "codename": "delete_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view Фото",
+        "content_type": 10,
+        "codename": "view_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add Приветствие",
+        "content_type": 11,
+        "codename": "add_introduction"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change Приветствие",
+        "content_type": 11,
+        "codename": "change_introduction"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete Приветствие",
+        "content_type": 11,
+        "codename": "delete_introduction"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view Приветствие",
+        "content_type": 11,
+        "codename": "view_introduction"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add Отзыв",
+        "content_type": 12,
+        "codename": "add_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change Отзыв",
+        "content_type": 12,
+        "codename": "change_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete Отзыв",
+        "content_type": 12,
+        "codename": "delete_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view Отзыв",
+        "content_type": 12,
+        "codename": "view_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add Блюдо",
+        "content_type": 13,
+        "codename": "add_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change Блюдо",
+        "content_type": 13,
+        "codename": "change_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete Блюдо",
+        "content_type": 13,
+        "codename": "delete_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view Блюдо",
+        "content_type": 13,
+        "codename": "view_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add Бронирование",
+        "content_type": 14,
+        "codename": "add_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change Бронирование",
+        "content_type": 14,
+        "codename": "change_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete Бронирование",
+        "content_type": 14,
+        "codename": "delete_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view Бронирование",
+        "content_type": 14,
+        "codename": "view_reservation"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$7qhz4GKQT22ayS6JOr7njF$SNQrBePcbRH+O53/ejcu6nEDCBTU6RKXOgQQlcdePXY=",
+        "last_login": "2024-07-07T14:01:18.093Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-06-03T15:57:35Z",
+        "groups": [],
+        "user_permissions": [
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            49,
+            50,
+            51,
+            52,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            21,
+            22,
+            23,
+            24
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$Jvsgfwih18GfjJNLWT8SrF$KQioTugoXJ4PcG2Vx2xrOxim1i8/cI9SL+ZBRyDrfKo=",
+        "last_login": "2024-06-06T17:13:38.284Z",
+        "is_superuser": false,
+        "username": "alena",
+        "first_name": "",
+        "last_name": "",
+        "email": "ana@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-06-06T16:47:43.089Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$WObRLwM2ymsTNMAvA1cQ1S$DPwrRdaZi6/SOcsD2x39J8vb2WYWg/sgQ18l28JNrI4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "anna",
+        "first_name": "",
+        "last_name": "",
+        "email": "ann@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-06-24T09:22:15.543Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 36,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$HMiMbiUvmtOp6QRkcbGLlz$LWaix6DD1HYrtRPnsNbdj+gDixoATOFilKwEy+5lZmI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "george",
+        "first_name": "",
+        "last_name": "",
+        "email": "ny@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-07-07T14:31:35.315Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "main",
+        "model": "chefs"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "main",
+        "model": "description"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "main",
+        "model": "dishcategory"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "main",
+        "model": "gallery"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "main",
+        "model": "introduction"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "main",
+        "model": "review"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "main",
+        "model": "dish"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "main",
+        "model": "reservation"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9n2bxhioki70idtq4e06gnot7zgqclg4",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAUBe_C2hChlIJL956BvH4-UjWQlHZlvLtt0oVuZ-a9twhYlxzWxnOYorgIJU6_bAQ9uewiPlDuVVItyzyNck_kYZu81civ69H-HWS0vK1ND7bKA74bkHqtfExKd3pjdjDasbYArDFOk8WZKRJx6kgRvHdJic8X1BA4AQ:1sJ8dZ:eExDhALgrrJJ-vQxRBtT11BcLdD5yUIpdM_12sm89bc",
+        "expire_date": "2024-07-01T09:26:53.855Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "d10k4zn0ubr86g59dnfkbr0fqzzbg9lc",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlmxHf8o6TmDtVnv4gCypTipEHeHSCmgfTPzXiLBtpa0dVrSnMVZaHH63SbAB9Ud5DvUW5PY6rrMk9wVedAury3T83K4fwcFevnWnh2ZUYXoA2Ik0so7tjEYGhkGixg4o3KadQZjnB9CUKyZHEStiKx4fwDiUzf1:1sFGgE:9RvmwMjBdOu5jJRZA9kEsjy_wmoRTGjmRM8x-wkXhYE",
+        "expire_date": "2024-06-20T17:13:38.311Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "m9u0z5wsj043znq015450xd0g31pxpu1",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAUBe_C2hChlIJL956BvH4-UjWQlHZlvLtt0oVuZ-a9twhYlxzWxnOYorgIJU6_bAQ9uewiPlDuVVItyzyNck_kYZu81civ69H-HWS0vK1ND7bKA74bkHqtfExKd3pjdjDasbYArDFOk8WZKRJx6kgRvHdJic8X1BA4AQ:1sQSS6:y_S78teaWiM8dkV1zKA4T2228JIW0ckNK6gDJ_X8VPc",
+        "expire_date": "2024-07-21T14:01:18.099Z"
+    }
+},
+{
+    "model": "main.introduction",
+    "pk": 1,
+    "fields": {
+        "name": "PHOTO1",
+        "photo": "introduction/master-slides-03.jpg"
+    }
+},
+{
+    "model": "main.introduction",
+    "pk": 2,
+    "fields": {
+        "name": "PHOTO2",
+        "photo": "introduction/master-slides-01.jpg"
+    }
+},
+{
+    "model": "main.introduction",
+    "pk": 3,
+    "fields": {
+        "name": "PHOTO3",
+        "photo": "introduction/master-slides-02.jpg"
+    }
+},
+{
+    "model": "main.description",
+    "pk": 1,
+    "fields": {
+        "name": null,
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "photo": "description/intro-01.jpg"
+    }
+},
+{
+    "model": "main.description",
+    "pk": 2,
+    "fields": {
+        "name": null,
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "photo": "description/intro-02.jpg"
+    }
+},
+{
+    "model": "main.description",
+    "pk": 3,
+    "fields": {
+        "name": null,
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "photo": "description/intro-04.jpg"
+    }
+},
+{
+    "model": "main.review",
+    "pk": 1,
+    "fields": {
+        "name": null,
+        "name_en": null,
+        "name_ru": null,
+        "review": null,
+        "review_en": null,
+        "review_ru": null,
+        "photo": "review/avatar-05.jpg"
+    }
+},
+{
+    "model": "main.review",
+    "pk": 2,
+    "fields": {
+        "name": null,
+        "name_en": null,
+        "name_ru": null,
+        "review": null,
+        "review_en": null,
+        "review_ru": null,
+        "photo": "review/avatar-04.jpg"
+    }
+},
+{
+    "model": "main.review",
+    "pk": 3,
+    "fields": {
+        "name": null,
+        "name_en": null,
+        "name_ru": null,
+        "review": null,
+        "review_en": null,
+        "review_ru": null,
+        "photo": "review/avatar-01.jpg"
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 1,
+    "fields": {
+        "name": "1",
+        "photo": "gallery/photo-gallery-13.jpg"
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 2,
+    "fields": {
+        "name": "2",
+        "photo": "gallery/photo-gallery-08.jpg"
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 3,
+    "fields": {
+        "name": "3",
+        "photo": "gallery/photo-gallery-15.jpg"
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 4,
+    "fields": {
+        "name": "4",
+        "photo": "gallery/photo-gallery-16.jpg"
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 5,
+    "fields": {
+        "name": "5",
+        "photo": "gallery/photo-gallery-17.jpg"
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 6,
+    "fields": {
+        "name": "6",
+        "photo": "gallery/photo-gallery-thumb-18.jpg"
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 7,
+    "fields": {
+        "name": "7",
+        "photo": "gallery/photo-gallery-thumb-07.jpg"
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 8,
+    "fields": {
+        "name": "8",
+        "photo": "gallery/photo-gallery-thumb-20.jpg"
+    }
+},
+{
+    "model": "main.gallery",
+    "pk": 9,
+    "fields": {
+        "name": "9",
+        "photo": "gallery/photo-gallery-thumb-21.jpg"
+    }
+},
+{
+    "model": "main.chefs",
+    "pk": 1,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "is_visible": true,
+        "position": "",
+        "position_en": null,
+        "position_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "photo": "chefs/avatar-02.jpg"
+    }
+},
+{
+    "model": "main.chefs",
+    "pk": 2,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "is_visible": true,
+        "position": "",
+        "position_en": null,
+        "position_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "photo": "chefs/avatar-03.jpg"
+    }
+},
+{
+    "model": "main.chefs",
+    "pk": 3,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "is_visible": true,
+        "position": "",
+        "position_en": null,
+        "position_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "photo": "chefs/avatar-05.jpg"
+    }
+},
+{
+    "model": "main.dishcategory",
+    "pk": 1,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "is_visible": true,
+        "sort": 1,
+        "photo": "dishcategories/header-menu-01.jpg"
+    }
+},
+{
+    "model": "main.dishcategory",
+    "pk": 2,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "is_visible": true,
+        "sort": 2,
+        "photo": "dishcategories/header-menu-02.jpg"
+    }
+},
+{
+    "model": "main.dishcategory",
+    "pk": 3,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "is_visible": true,
+        "sort": 3,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dishcategory",
+    "pk": 4,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "is_visible": true,
+        "sort": 4,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dishcategory",
+    "pk": 5,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "is_visible": true,
+        "sort": 5,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dishcategory",
+    "pk": 6,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "is_visible": true,
+        "sort": 6,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 1,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "29.79",
+        "is_visible": true,
+        "category": 1,
+        "sort": 1,
+        "photo": "dishes/lunch-01.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 3,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "45.09",
+        "is_visible": true,
+        "category": 1,
+        "sort": 2,
+        "photo": "dishes/lunch-03.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 4,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "12.75",
+        "is_visible": true,
+        "category": 1,
+        "sort": 3,
+        "photo": "dishes/lunch-05.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 5,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "29.79",
+        "is_visible": true,
+        "category": 1,
+        "sort": 4,
+        "photo": "dishes/lunch-02.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 6,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "45.09",
+        "is_visible": true,
+        "category": 1,
+        "sort": 5,
+        "photo": "dishes/lunch-04.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 7,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "12.75",
+        "is_visible": true,
+        "category": 1,
+        "sort": 6,
+        "photo": "dishes/lunch-06.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 8,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "29.79",
+        "is_visible": true,
+        "category": 2,
+        "sort": 1,
+        "photo": "dishes/dinner-01.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 9,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "45.09",
+        "is_visible": true,
+        "category": 2,
+        "sort": 2,
+        "photo": "dishes/dinner-03.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 10,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "12.75",
+        "is_visible": true,
+        "category": 2,
+        "sort": 3,
+        "photo": "dishes/dinner-05.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 11,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "29.79",
+        "is_visible": true,
+        "category": 2,
+        "sort": 4,
+        "photo": "dishes/dinner-02.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 13,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "12.75",
+        "is_visible": true,
+        "category": 2,
+        "sort": 6,
+        "photo": "dishes/dinner-06.jpg"
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 14,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "29.79",
+        "is_visible": true,
+        "category": 3,
+        "sort": 1,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 15,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "19.35",
+        "is_visible": true,
+        "category": 3,
+        "sort": 2,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 16,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "12.19",
+        "is_visible": true,
+        "category": 3,
+        "sort": 3,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 17,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "21.89",
+        "is_visible": true,
+        "category": 3,
+        "sort": 4,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 18,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "29.79",
+        "is_visible": true,
+        "category": 5,
+        "sort": 1,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 19,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "19.35",
+        "is_visible": true,
+        "category": 5,
+        "sort": 2,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 20,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "53.34",
+        "is_visible": true,
+        "category": 5,
+        "sort": 3,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 21,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "62.45",
+        "is_visible": true,
+        "category": 5,
+        "sort": 4,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 22,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "31.18",
+        "is_visible": true,
+        "category": 4,
+        "sort": 1,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 23,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "70.25",
+        "is_visible": true,
+        "category": 4,
+        "sort": 2,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 24,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "36.19",
+        "is_visible": true,
+        "category": 4,
+        "sort": 3,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 25,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "19.50",
+        "is_visible": true,
+        "category": 4,
+        "sort": 4,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 26,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "29.15",
+        "is_visible": true,
+        "category": 4,
+        "sort": 5,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 27,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "29.79",
+        "is_visible": true,
+        "category": 4,
+        "sort": 6,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 28,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "19.35",
+        "is_visible": true,
+        "category": 4,
+        "sort": 7,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 29,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "9.79",
+        "is_visible": true,
+        "category": 5,
+        "sort": 1,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 30,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "19.35",
+        "is_visible": true,
+        "category": 5,
+        "sort": 2,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 31,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "5.79",
+        "is_visible": true,
+        "category": 5,
+        "sort": 3,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 32,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "9.79",
+        "is_visible": true,
+        "category": 6,
+        "sort": 1,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 33,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "19.35",
+        "is_visible": true,
+        "category": 6,
+        "sort": 2,
+        "photo": ""
+    }
+},
+{
+    "model": "main.dish",
+    "pk": 34,
+    "fields": {
+        "name": "",
+        "name_en": null,
+        "name_ru": null,
+        "description": null,
+        "description_en": null,
+        "description_ru": null,
+        "price": "5.79",
+        "is_visible": true,
+        "category": 6,
+        "sort": 3,
+        "photo": ""
+    }
+},
+{
+    "model": "main.reservation",
+    "pk": 1,
+    "fields": {
+        "name": "Ann",
+        "phone": "+380687777777",
+        "email": "ann@gmail.com",
+        "date": "06/06/2024",
+        "time": "9:00",
+        "people": "1 person",
+        "is_confirmed": false,
+        "date_created": "2024-06-06T14:54:33.156Z",
+        "date_updated": "2024-06-06T14:54:33.156Z"
+    }
+},
+{
+    "model": "main.reservation",
+    "pk": 2,
+    "fields": {
+        "name": "Ann",
+        "phone": "+1 5589 55488 55",
+        "email": "anastasiya@gmail.com",
+        "date": "06/06/2024",
+        "time": "9:00",
+        "people": "1 person",
+        "is_confirmed": false,
+        "date_created": "2024-06-06T14:56:14.368Z",
+        "date_updated": "2024-06-06T14:56:14.368Z"
+    }
+},
+{
+    "model": "main.reservation",
+    "pk": 3,
+    "fields": {
+        "name": "Anna",
+        "phone": "+3806855555554",
+        "email": "ana@gmail.com",
+        "date": "17/06/2024",
+        "time": "9:00",
+        "people": "1 person",
+        "is_confirmed": false,
+        "date_created": "2024-06-17T09:26:33.844Z",
+        "date_updated": "2024-06-17T09:26:33.844Z"
+    }
+},
+{
+    "model": "main.reservation",
+    "pk": 4,
+    "fields": {
+        "name": "A",
+        "phone": "+380687777777",
+        "email": "aetyhsetry@zdfg",
+        "date": "17/06/2024",
+        "time": "9:00",
+        "people": "1 person",
+        "is_confirmed": false,
+        "date_created": "2024-06-17T14:07:57.615Z",
+        "date_updated": "2024-06-17T14:07:57.615Z"
+    }
+},
+{
+    "model": "main.reservation",
+    "pk": 36,
+    "fields": {
+        "name": "Anna",
+        "phone": "+15589 5548855",
+        "email": "ann@gmail.com",
+        "date": "24/06/2024",
+        "time": "9:00",
+        "people": "1 person",
+        "is_confirmed": false,
+        "date_created": "2024-06-24T09:22:42.536Z",
+        "date_updated": "2024-06-24T09:22:42.536Z"
+    }
+}
+]
