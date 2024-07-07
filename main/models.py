@@ -21,7 +21,7 @@ class Description(models.Model):
     photo = models.ImageField(upload_to="description/", blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
     class Meta:
         verbose_name = 'Описание'
@@ -35,7 +35,7 @@ class Review(models.Model):
     photo = models.ImageField(upload_to="review/", blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
     class Meta:
         verbose_name = 'Отзыв'
@@ -64,7 +64,7 @@ class Chefs(models.Model):
     photo = models.ImageField(upload_to='chefs/', blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
     class Meta:
         verbose_name = 'Повар'
@@ -83,7 +83,7 @@ class DishCategory(models.Model):
             yield item
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
     class Meta:
         verbose_name = 'Категория блюд'
@@ -101,7 +101,7 @@ class Dish(models.Model):
     photo = models.ImageField(upload_to='dishes/', blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
     class Meta:
         verbose_name = 'Блюдо'

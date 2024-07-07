@@ -50,7 +50,7 @@
 			<div class="row">
 				<div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
 					{% for category in categories %}
-                        {% if category.name == 'STARTERS' or category.name == 'DRINKS' %}
+                        {% if category.name_en == 'STARTERS' or category.name_en == 'DRINKS' %}
                             <div class="wrap-item-mainmenu p-b-22">
                                 <h3 class="tit-mainmenu tit10 p-b-25">
                                     {{ category }}
@@ -77,7 +77,7 @@
 				</div>
 				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
                     {% for category in categories %}
-                        {% if category.name == 'MAIN' or category.name == 'DESSERT' %}
+                        {% if category.name_en == 'MAIN' or category.name_en == 'DESSERT' %}
                             <div class="wrap-item-mainmenu p-b-22">
                                 <h3 class="tit-mainmenu tit10 p-b-25">
                                     {{ category }}
@@ -108,7 +108,7 @@
     
     <!-- Lunch and Dinner -->
 	{% for category in categories %}
-        {% if category.name == 'LUNCH' or category.name == 'DINNER' %}
+        {% if category.name_en == 'LUNCH' or category.name_en == 'DINNER' %}
             <section class="section-lunch bgwhite">
 		        <div class="header-lunch parallax0 parallax100" style="background-image: url('{{ category.photo.url }}');">
 			        <div class="bg1-overlay t-center p-t-170 p-b-165">
